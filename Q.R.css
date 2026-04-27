@@ -1,0 +1,89 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(Back.jpg);
+background-size:100vw 200vh;
+background-repeat: no-repeat;
+}
+header{
+    background-color: red;
+}
+/* class selector of menu page */
+.bg{
+    background-color: blue;
+    color: black;
+}
+
+header h1{
+    font-size: 3em;
+    text-align: center;
+    color:#ffffff;
+}
+
+/* descdent selector  */
+header p{
+    color:#fffedc;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+
+nav a{
+color: goldenrod;
+font-size:30px;
+   text-decoration: none;
+}
+
+ nav ul{
+    list-style-type:none;
+}
+
+
+main p{
+    line-height: 3em;
+    color: yellow;
+    letter-spacing: 20%;
+    text-indent: 30px;
+    
+}
+
+main p span {
+    color: white;
+    text-transform: uppercase;
+}
+
+main ul li{
+    /* list-style-image: url(); */
+
+}
+
+.foot{
+    background-color: lightblue;
+   height:80px;
+
+   font-size: medium;
+   font-style: italic;
+    
+}
+
+.restaurant{
+width: 400px;
+height: 400px;
+}
+
+
+
+
+
+
+
+
+
+/* id selector of index page  */
+/* #resdescription{
+    color: rgb(15, 188, 26);
+} */
+
